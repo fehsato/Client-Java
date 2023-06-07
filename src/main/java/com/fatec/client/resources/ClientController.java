@@ -57,7 +57,7 @@ public class ClientController {
     
     
     @PostMapping
-    public ResponseEntity<Client> saveClient(@RequestBody Client client ){
+    public ResponseEntity<Client> saveCliet(@RequestBody Client client ){
         Client newClient = clientService.save(client);
 
         URI location = ServletUriComponentsBuilder
